@@ -18,8 +18,9 @@ spec:
       containers:
         - name: backend
           # Replace with your docker registry info
-          image: krmp-d2hub-idock.9rum.cc/dev-test/repo_8e99c67b1c01:latest
-          ports:
+          # image: krmp-d2hub-idock.9rum.cc/dev-test/repo_8e99c67b1c01:latest
+          image: pengbai/docker-supermario
+		  ports:
             - name: http
               containerPort: 8080
           resources:
